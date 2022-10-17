@@ -1,56 +1,85 @@
-h1{
-text-align: center;
+* {
+  box-sizing: border-box;
 }
-span{
-    position: relative;
-    float: right;
-  }
-  #box{
-    background-color: pink;
-    border: solid 2px;
-    padding: 5px;
-    text-align: center;
-  }
-  #box2{
-    background-color: brown;
-    border: solid 2px;
-    padding: 5px;
-  }
-  #box3{
-    background-color: yellowgreen;
-    border: solid 2px;
-    padding: 5px;
-  }
+
+h1{
+  text-align: center;
+  font-size: 29px;
+  margin-bottom: 25px;
+  color: black;
+}
+
 p {
-    border: 1px solid black;
-    background-color: grey;
-    width: 90%;
-    height: 150px;
-    padding: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
+  padding: 15px 5px 0px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+}
+
+.cont{
+  background-color: rgb(150, 150, 150);
+  border: 2px solid black;
+  margin-top: 20px; 
+  margin-right: 20px; 
+  text-align: justify;
+  position: relative;
+}
+
+span{
+  position: relative;
+  float: right;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  }
+
+#box1{
+    background-color: rgb(250, 150, 167);
     color: black;
   }
-.container{
-    display: flex;
-    margin: 10px;
+#box2{
+    background-color: brown;
+    color: black;
+  }
+#box3{
+    background-color: yellowgreen;
+    color: black;
+  }
+
+.row {
+  width: 100%;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-    .cont1, .cont2, .cont3{
-        width: 80%;
+
+
+@media (min-width: 992px) {
+   
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
     }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-    .cont1, .cont{
-        width: 50%;
-    }
-    .cont3{
-        width: 80%;
-    }
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
 }
-@media (max-width: 768px) {
-    .cont1, .cont2, .cont3{
-        width: 50%;
-    }
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+    float: left;
+    width: 100%;
+  }
 }
