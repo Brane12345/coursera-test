@@ -11,7 +11,7 @@ body{
     margin-top: 10px;
 }
 #nav-list a:hover{
-      color: rgb(8, 8, 201);  
+      color: yellowgreen;  
 }
 .navbar-header button.navbar-toggle ,.icon-bar{
     border: 2px solid rgb(42, 2, 66);
@@ -39,7 +39,7 @@ h1{
     border: 2px solid black;
     margin:2px ;
     text-align: center;
-   color: rgb(52, 50, 50);
+    color: rgb(31, 29, 29);
 }
 
 .menu{
