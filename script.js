@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ******************************* 
 // START HERE IF YOU WANT AN EASIER STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -20,6 +21,9 @@ Hello Larry
 Hello Paula
 Hello Laura
 Good Bye Jim
+=======
+var names = ["Yaakov", "John", "Jackson", "Jason", "Paul", "Frank", "Larry", "Paul", "Lane", "Jim"];
+>>>>>>> 81ea007cf87f87789c1759000e17c417e6db70c8
 
 WARNING!!! WARNING!!!
 The code does NOT currently work! It is YOUR job to make it work
@@ -63,5 +67,12 @@ WARNING!!! WARNING!!!
         helloSpeaker.speak(names[i]);
       }
     }
+<<<<<<< HEAD
     
     })(window);
+=======
+    else{
+        console.log("Hello "+ names[i])
+    }
+}
+>>>>>>> 81ea007cf87f87789c1759000e17c417e6db70c8
